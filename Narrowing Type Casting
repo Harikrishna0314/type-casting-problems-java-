@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+
+        double a = 125.75;
+
+        int b = (int) a;
+        short c = (short) b;
+        byte d = (byte) c;
+
+        System.out.println("double = " + a);
+        System.out.println("int    = " + b);
+        System.out.println("short  = " + c);
+        System.out.println("byte   = " + d);
+    }
+}
