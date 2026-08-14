@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        char ch = 'A';
+        int a = ch;
+
+        char b = (char) 66;
+        char c = (char) 67;
+
+        System.out.println("Character = " + ch);
+        System.out.println("A as int  = " + a);
+        System.out.println("66 as char = " + b);
+        System.out.println("67 as char = " + c);
+    }
+}
