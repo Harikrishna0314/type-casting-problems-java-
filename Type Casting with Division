@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 3;
+
+        double x = a / b;
+        double y = (double) a / b;
+
+        System.out.println("Without casting = " + x);
+        System.out.println("With casting    = " + y);
+    }
+}
