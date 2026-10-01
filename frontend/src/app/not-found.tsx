@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <div className="mx-auto max-w-3xl px-6 py-32 text-center"><div className="text-[11px] font-bold uppercase tracking-[.22em] text-cyan-300">404 · Airspace not found</div><h1 className="mt-3 text-4xl font-semibold">That aircraft page doesn’t exist.</h1><p className="mt-4 text-slate-400">Check the slug or return to the explorer.</p><Link href="/" className="mt-7 inline-flex rounded-xl bg-cyan-300 px-5 py-3 text-sm font-bold text-slate-950">Return to Aerodrive</Link></div>}
